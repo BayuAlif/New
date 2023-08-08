@@ -1,0 +1,87 @@
+*{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #fff;
+}
+
+section{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url(./tuna-wallpapers.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.form-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));
+    width: 480px;
+    padding: 50px 50px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 60px #000;
+}
+
+
+
+h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.input-field input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    margin: 20px 0;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+}
+
+.input-field input[type="submit"]{
+    background: rgb(69, 69, 222);
+    color: antiquewhite;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 16px;
+    opacity: .7;
+    transition: opacity .3s ease;
+}
+
+.input-field input[type="submit"]:hover{
+    opacity: 1;
+}
+
+label{
+    color: #fff;
+}
+h1.card-title{
+    color:antiquewhite ;
+    font-weight: 600;
+}
+
+p.dnt-acc{
+    color:white ;
+    font-size: 16px;
+}
+
+a.link{
+    color: #f3ff13;
+    transition: ease 0.7s;
+}
+
+a.link:hover{
+    color: #c7c9a0;
+}
